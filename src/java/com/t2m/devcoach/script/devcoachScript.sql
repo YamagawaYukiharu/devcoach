@@ -32,7 +32,7 @@ CREATE TABLE public."PESSOA"
 (
   "DOCUMENTO" character varying(20) NOT NULL,
   "NOME" character varying(40),
-  "DATANASC" date,
+  "DATANASC" character varying(10),
   "EMAIL" character varying(40),
   "ID" integer NOT NULL,
   "ID_ENDERECO" integer,
